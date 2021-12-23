@@ -19,7 +19,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        buyCake: () => dispatch(buyCake)
+        buyCake: () => dispatch(buyCake())
     }
 }
 
